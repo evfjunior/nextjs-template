@@ -1,6 +1,24 @@
 {
   "name": "nextjs-template",
   "private": true,
+  "author": "evfjunior",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evfjunior/nextjs-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evfjunior/nextjs-template/issues"
+  },
+  "homepage": "https://github.com/evfjunior/nextjs-template#readme",
+  "description": "A complete project structure to create React web applications using NextJS and Typescript.",
+  "keywords": [
+    "nextjs",
+    "template",
+    "reactjs",
+    "typescript",
+    ""
+  ],
   "scripts": {
     "cm": "cz",
     "dev": "next dev",
