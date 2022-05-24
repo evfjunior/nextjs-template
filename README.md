@@ -11,7 +11,7 @@
 ![React](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/react?color=61dbfb&logo=React&style=for-the-badge)
 ![TypeScript](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/dev/typescript/main?color=007acc&logo=Typescript&style=for-the-badge)
 ![Commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen?style=for-the-badge&logo=)
-![License](https://img.shields.io/github/license/evfjunior/nextjs-template?style=for-the-badge)
+![License](https://img.shields.io/github/license/evfjunior/nextjs-template?color=%23a31f34&style=for-the-badge)
 
 </div>
 
@@ -55,8 +55,7 @@ Or you can run:
 - `dev`: runs the development server on `localhost:3000`
 - `build`: creates the production build
 - `start`: starts a demo build
-- `commit`: commit changes using commitizen-cli
-- `generate`: runs Plop to generate a component file structure
+- `cm`: commit changes using commitizen-cli
 - `lint`: runs ESLint against the `src` folder
 
 <hr>
