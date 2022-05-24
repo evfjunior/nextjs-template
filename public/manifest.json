@@ -1,0 +1,24 @@
+{
+  "name": "NextJS Template",
+  "short_name": "NextJS Template",
+  "icons": [
+    {
+      "src": "/assets/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#f231a5",
+  "background_color": "#212121",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "description": "A complete project structure to create React web applications using NextJS and Typescript"
+}
