@@ -1,0 +1,19 @@
+import { render, screen } from '@testing-library/react'
+
+import { {{pascalCase name}} } from '.'
+
+describe('<{{pascalCase name}} />', () => {
+  it('should render the component and content correctly', () => {
+    render(
+      <{{pascalCase name}}>
+        <p>content</p>
+      </{{pascalCase name}}>
+    )
+
+    const component = screen.getByRole('article')
+    const content = screen.getByText(/content/i)
+
+    expect(component).toBeInTheDocument()
+    expect(content).toBeInTheDocument()
+  })
+})

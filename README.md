@@ -50,6 +50,7 @@ Or you can run:
 - [Lint Staged](github.com/okonet/lint-staged)
 - [Commitizen](https://commitizen-tools.github.io/commitizen/)
 - [Commitlint](https://commitlint.js.org/)
+- [Plop](https://plopjs.com/)
 
 <hr>
 
@@ -59,9 +60,10 @@ Or you can run:
 - `build`: creates the production build
 - `start`: starts a demo build
 - `cm`: commit changes using commitizen-cli
+- `gen:component`: generates files for a React component
+- `lint`: runs ESLint against the `src` folder
 - `test`: runs Jest
 - `test:watch`: runs Jest in watch mode
-- `lint`: runs ESLint against the `src` folder
 - `typecheck`: runs `tsc` to check for Typescript typings
 
 <hr>
