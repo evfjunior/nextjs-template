@@ -12,6 +12,7 @@
 ![TypeScript](https://img.shields.io/github/package-json/dependency-version/evfjunior/nextjs-template/dev/typescript/main?color=007acc&logo=Typescript&style=for-the-badge)
 ![Commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen?style=for-the-badge&logo=)
 ![License](https://img.shields.io/github/license/evfjunior/nextjs-template?color=%23a31f34&style=for-the-badge)
+![Build](https://img.shields.io/github/workflow/status/evfjunior/nextjs-template/ci?style=for-the-badge&logo=Github)
 
 </div>
 
@@ -40,6 +41,8 @@ Or you can run:
 - [ReactJS](https://reactjs.org)
 - [NextJS](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Yarn](https://yarnpkg.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -56,7 +59,10 @@ Or you can run:
 - `build`: creates the production build
 - `start`: starts a demo build
 - `cm`: commit changes using commitizen-cli
+- `test`: runs Jest
+- `test:watch`: runs Jest in watch mode
 - `lint`: runs ESLint against the `src` folder
+- `typecheck`: runs `tsc` to check for Typescript typings
 
 <hr>
 
