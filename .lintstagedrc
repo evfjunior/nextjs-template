@@ -1,6 +1,7 @@
 {
   "src/**/*.{ts,tsx}": [
     "yarn lint --fix",
+    "yarn test --findRelatedTests --bail",
     "yarn prettier --write"
   ],
   "**/*.{md,yml,json,babelrc,eslintrc,prettierrc}": [
