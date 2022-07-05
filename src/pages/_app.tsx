@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
 
-import { Layout } from '@components/Layout'
 import '@styles/globals.css'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
+    <>
       <Head>
         <link rel="apple-touch-icon" href="/assets/icon-512.png" />
         <link rel="icon" href="/assets/icon-128.png" />
@@ -18,8 +17,9 @@ function App({ Component, pageProps }: AppProps) {
         />
         <title>NextJS Template</title>
       </Head>
+
       <Component {...pageProps} />
-    </Layout>
+    </>
   )
 }
 
