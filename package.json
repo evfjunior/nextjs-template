@@ -27,12 +27,12 @@
     "gen:component": "plop",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook",
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:ci": "jest --ci --colors --passWithNoTests",
     "test:watch": "jest --maxWorkers=25% --watch",
-    "typecheck": "tsc --project tsconfig.json --noEmit",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
     "@storybook/cli": "^6.5.9",
