@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import { Layout } from '.'
 
 describe('<Layout />', () => {
-  it('should render the component and content correctly', () => {
+  it('renders the component correctly', () => {
     render(
       <Layout>
         <p>content</p>
