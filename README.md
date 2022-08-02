@@ -43,6 +43,7 @@ Or you can run:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
 - [Yarn](https://yarnpkg.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -62,6 +63,8 @@ Or you can run:
 - `cm`: commit changes using commitizen-cli
 - `gen:component`: generates files for a React component
 - `lint`: runs ESLint against the `src` folder
+- `storybook`: runs Storybook
+- `storybook:build`: builds Storybook
 - `test`: runs Jest
 - `test:watch`: runs Jest in watch mode
 - `typecheck`: runs `tsc` to check for Typescript typings
