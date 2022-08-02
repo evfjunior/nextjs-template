@@ -30,9 +30,12 @@
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:ci": "jest --ci --colors --passWithNoTests",
     "test:watch": "jest --maxWorkers=25% --watch",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@storybook/cli": "^6.5.9",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -43,8 +46,22 @@
     }
   },
   "devDependencies": {
+    "@babel/core": "^7.18.10",
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/addons": "^6.5.9",
+    "@storybook/api": "^6.5.9",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/components": "^6.5.9",
+    "@storybook/core-events": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/theming": "^6.5.9",
     "@testing-library/dom": "^8.14.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -54,6 +71,7 @@
     "@types/react-dom": "18.0.5",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
+    "babel-loader": "^8.2.5",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "8.19.0",
@@ -68,6 +86,7 @@
     "lint-staged": "^13.0.3",
     "plop": "^3.1.0",
     "prettier": "^2.7.1",
+    "storybook-dark-mode": "^1.1.0",
     "typescript": "4.7.4"
   },
   "config": {
